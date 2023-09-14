@@ -1,0 +1,103 @@
+body {
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: lightcoral;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pool {
+
+    width: 45em;
+    height: 25em;
+
+    background-color: grey;
+
+    border-radius: 20% 20% 20% 20%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.float {
+
+    height: 8em;
+    width: 8em;
+}
+
+#float1 {
+
+    background-color: red;
+    transition: 2s;
+
+}
+
+#float1:hover {
+
+    border-radius: 0% 0% 50% 50%;
+    transition: 0.5s;
+
+    background-color: darkred;
+    margin: 1em 3em 3em 4em;
+    cursor: pointer;
+}
+
+#float2 {
+
+    background-color: purple;
+    transition: 2s;
+
+}
+
+#float2:hover {
+
+    border-radius: 48% 50% 50% 0%;
+    transition: 0.5s;
+
+    background-color: darkmagenta;
+    margin: 8em 3em 4em 4em;
+    cursor: pointer;
+}
+
+#float3 {
+
+    background-color: brown;
+    transition: 2s;
+
+}
+
+#float3:hover {
+
+    border-radius: 48% 12% 33% 33%;
+    transition: 0.5s;
+
+    background-color: rgb(90, 23, 23);
+    margin: 10em 0em 0em 9em;
+    cursor: pointer;
+}
+#float4 {
+
+    background-color: blue;
+    transition: 2s;
+
+}
+
+#float4:hover {
+
+    border-radius: 10% 12% 0% 20%;
+    transition: 0.5s;
+
+    background-color: darkblue;
+    margin: 0em 0em 4em 4em;
+    cursor: pointer;
+}
